@@ -1,0 +1,49 @@
+  /*1- How we can access HTML elements using DOM in javascript?*/
+ => We can access elements html elements using Dom in java script
+        /* We can access Html elements using Dom by class in javascript */ 
+        <h1 class ="heading">
+         Welcome
+         </h1>
+
+        /*javascript files
+        access elements BY class */
+        const elemName = document.getElementByClassName('heading') ;
+        eleName.innerHtml = 'Welcome' ,
+       console.log(elemName) ;
+
+  =>    We can access Html elements using Dom by id in javascript  
+    <h1 id = "headings">
+    Welcome
+    </h1>
+        /*       javascript files     
+        access elements by id  */
+        const elementName = document.getElementById("headings") ;
+        elementName.innerHtml = "welcome" ;
+        console.log(elementName)
+
+ =>    We can access Html elements using Dom by tag name in javascript  
+   
+        /*       javascript files     
+        access elements by tag name  */
+        const paragraph = document.getElementByTagName('p') ;
+       paragraph.innerHtml = "..first paragraph" ;
+       
+     /*              Q no 2                 */
+ =>  2- What are the activities that we can perform using DOM?
+
+* We can perform style colors and designing in website in javascript using DOM
+
+// Accessing elements by tag name
+const paragraphs = document.getElementsByTagName('p');
+
+// Modifying the first paragraph's content
+paragraphs[0].innerHTML = 'This is the first paragraph.';
+
+// Modifying the second paragraph's style
+paragraphs[1].style.color = 'red';
+Methods we can perform using DOM
+=> Finding HTML elements by id
+=>Finding HTML elements by class name
+=>Finding HTML elements by tag name
+=>Finding HTML elements by CSS selectors
+=>Finding HTML elements by HTML object collections
