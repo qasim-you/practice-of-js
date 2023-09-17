@@ -1,5 +1,5 @@
   /*1- How we can access HTML elements using DOM in javascript?*/
- => We can access elements html elements using Dom in java script
+ => We can access elements html elements using Dom in java script 
         /* We can access Html elements using Dom by class in javascript */ 
         <h1 class ="heading">
          Welcome
