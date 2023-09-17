@@ -2,7 +2,7 @@
 class animal {
   constructor(name, age) {
     this.name = name;
-    this.age = age;
+    this.age = age; 
   }
   eat() {
     console.log(`${this.name} is eating`);
